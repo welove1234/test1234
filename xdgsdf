@@ -1,0 +1,8 @@
+local HWIDTable = loadstring(game:HttpGet('https://raw.githubusercontent.com/welove1234/tay.xyzv2/main/tay.xyzv2.lua'))()
+local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
+for i,v in pairs(HWID) do
+    if v == HWID then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+    end
+end
+
